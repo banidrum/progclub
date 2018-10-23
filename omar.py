@@ -1,9 +1,8 @@
 import sys
-t = input('Digite um inteiro: \n')
-int(t)
+t = int(input('Digite um inteiro: \n'))
+
 
 while t:
     t-=1
-    x = input('Digite x: \n')
-    y = input('Digite y: \n')
+    x, y = map(int, input().split())
     print(x + y)
